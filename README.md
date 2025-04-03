@@ -3,7 +3,6 @@ RTOS Projects
 This repository contains various Real-Time Operating System (RTOS) projects built using FreeRTOS and Arduino for microcontroller platforms such as the Arduino Nano and Raspberry Pi Zero. These projects demonstrate the capabilities of FreeRTOS in managing multiple tasks, handling interrupts, and working with peripherals like LEDs, buttons, and communication protocols.
 
 Projects Overview
-
 This repository includes several example projects that showcase how to:
 Use FreeRTOS to manage tasks on an embedded system.
 Control RGB LEDs with PWM.
@@ -12,7 +11,6 @@ Integrate RTOS tasks with interrupt-driven peripherals.
 Implement button-based control to suspend and resume tasks.
 
 Example Projects:
-
 RGB LED Control with FreeRTOS
 
 A demo of controlling an RGB LED with three separate FreeRTOS tasks, each controlling one color.
