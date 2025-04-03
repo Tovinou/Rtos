@@ -1,4 +1,5 @@
 RTOS Projects
+
 This repository contains various Real-Time Operating System (RTOS) projects built using FreeRTOS and Arduino for microcontroller platforms such as the Arduino Nano and Raspberry Pi Zero. These projects demonstrate the capabilities of FreeRTOS in managing multiple tasks, handling interrupts, and working with peripherals like LEDs, buttons, and communication protocols.
 
 Projects Overview
