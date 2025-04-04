@@ -32,23 +32,23 @@ Dependencies
 FreeRTOS: FreeRTOS on Arduino
 Raspberry Pi Zero with Linux and appropriate toolchains for CMake-based projects
 Setup
-1. Clone the Repository
-sh
-git clone https://github.com/tovinou/Rtos.git
-cd Rtos
-ls -l
-2. Install Dependencies
+1. Clone the Repository.
+git clone https://github.com/tovinou/Rtos.git.
+cd Rtos.
+ls -l.
+
+3. Install Dependencies.
 For Arduino Nano projects:
 Ensure you have the Arduino IDE installed with the FreeRTOS library.
 Select Arduino Nano as the target board in the Tools > Board menu.
 For Raspberry Pi Zero projects:
 Make sure your Raspberry Pi Zero has Linux installed and the necessary development tools (e.g., gcc, make).
 Ensure FreeRTOS is properly installed on your system.
-3. Open the Project in Arduino IDE (for Arduino Nano)
+4. Open the Project in Arduino IDE (for Arduino Nano)
 Open the .ino files in the Arduino IDE.
 Select Arduino Nano from the Tools > Board menu.
 Upload the code to the board.
-4. Build with CMake (for Raspberry Pi Zero-based Projects)
+5. Build with CMake (for Raspberry Pi Zero-based Projects)
 For Raspberry Pi Zero projects using CMake:
 Set up your FreeRTOS environment on Raspberry Pi Zero (or configure accordingly).
 Build the project:
@@ -76,5 +76,6 @@ Create a feature branch: git checkout -b my-new-feature.
 Commit your changes: git commit -am 'Add new feature'.
 Push to your branch: git push origin my-new-feature.
 Submit a pull request.
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
